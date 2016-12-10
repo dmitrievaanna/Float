@@ -1,0 +1,117 @@
+body,
+html {
+    margin:0;
+    padding:0;
+    color:#000;
+    background:#FFF;
+}
+
+#wrap {
+    width:1200px;
+    margin:0 auto;
+    padding: 0;
+    background:#aae7ff;
+    
+}
+#blockAbsolute{
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    position: absolute;
+    top: 5px;
+    right: 50%;
+    z-index: 10;
+    background-color: #ffddc5;
+}
+#header{
+    padding:5px 10px;
+    font-size: 20px;
+    color: #001123;
+    background-color: #c4fff6;
+}
+h1{
+     margin: 0;
+}
+#nav{
+    width: 1180px;
+    padding:5px 10px;
+    margin: 0px;
+    background-color: #e8ecf2;
+}
+
+#nav ul{
+    list-style-type: none;
+}
+#nav li {
+    display:inline;
+    margin:0;
+    padding:0;
+}
+#sidebar ul{
+    list-style-type: none;
+}
+#sidebar{
+    width: 270px;
+    height: 1000px;
+    padding:10px;
+    margin: 0px;
+    float: left;
+    background-color: #aae7ff;
+}
+#main{
+    float:left;
+    width:890px;
+    padding:10px;
+    margin: 0px;
+    height: 1000px;
+    float: right;
+    background-color: #f5f4ff;
+}
+#pageTitle
+{
+    margin: o;
+    padding: 5px;
+    background-color: #ffddc5;
+}
+#picture{
+  float:left;
+  width: 680px;
+  height: 500px;
+  padding: 10px; 
+  margin: 0px; 
+  background-color: #ab56fa;
+}
+#advertising{
+  float:right;
+  width: 190px;
+  height: 520px;
+  padding: 0px; 
+  margin: 0px; 
+  background-color: #ca12c1;
+}
+#footer {
+    margin:0;
+    clear:both;
+    color: #e8ecf2;
+    background:#001123;
+}
+#footer p{
+    margin: 0px;
+    padding: 5px 10px;
+}
+#blockFixed{
+    width: 150px;
+    height: 80px;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 10px;
+    right: 50%;
+
+    background-color: #ffddc5;
+}
+img{
+    margin: 0 35%;
+}
+div .clearfix{
+    clear: both;
+}
